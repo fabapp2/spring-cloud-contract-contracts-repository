@@ -1,5 +1,5 @@
 {
-  "id" : "95916571-9ad7-4e11-9d6c-e530366664aa",
+  "id" : "18862799-2f0a-403b-83eb-ad4f548ae8c6",
   "request" : {
     "url" : "/messages",
     "method" : "POST",
@@ -20,5 +20,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "95916571-9ad7-4e11-9d6c-e530366664aa"
+  "uuid" : "18862799-2f0a-403b-83eb-ad4f548ae8c6"
 }
