@@ -1,0 +1,24 @@
+{
+  "id" : "3893804a-df26-431b-b6a4-27f107fb79d7",
+  "request" : {
+    "url" : "/messages",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matches" : "\\s*\"?Hello.*\"?\\s*"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Hello Consumer!",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "3893804a-df26-431b-b6a4-27f107fb79d7"
+}
